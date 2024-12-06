@@ -25,6 +25,17 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
+::-webkit-scrollbar{
+    width: 25px;
+}
+::-webkit-scrollbar-track{
+    background: #d38686;
+}
+::-webkit-scrollbar-thumb{
+    background: #ca5959;
+    border-radius: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.687);
+}
 
 .fade-enter-active,
 .fade-leave-active {

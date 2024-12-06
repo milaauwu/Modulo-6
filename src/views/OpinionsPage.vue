@@ -333,6 +333,18 @@ export default {
     width: 100%;
 }
 
+::-webkit-scrollbar{
+    width: 18px;
+}
+::-webkit-scrollbar-track{
+    background: #ca5959;
+}
+::-webkit-scrollbar-thumb{
+    background: #d38686;
+    border-radius: 12px;
+    border: 3px solid white;
+}
+
 .comment-form {
     background-color: #f6f8fa;
     border-radius: 20px;
